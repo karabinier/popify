@@ -1,0 +1,33 @@
+.glyphicon:before {
+ visibility: visible;
+ margin-top: 0;
+}
+.glyphicon.glyphicon-unchecked:checked:before {
+   content: "\e067";
+}
+input[type=checkbox].glyphicon{
+    visibility: hidden;
+    
+}
+
+.checkbox input
+{
+  margin-top: 0px;
+}
+
+.checkbox
+{
+  font-size: large;
+}
+
+.emptyEditableElement
+{
+  border: 0 !important;
+}
+
+span.editable-click {
+  color: green;
+  border-color: green;
+  border:0;
+  font-size: 12px;
+} 
