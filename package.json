@@ -1,0 +1,24 @@
+{
+  "name": "popify",
+  "version": "1.0.0",
+  "description": "Kiss The Agile Future",
+  "main": "gulp.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karabinier/popify.git"
+  },
+  "author": "De Karabinier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karabinier/popify/issues"
+  },
+  "homepage": "https://github.com/karabinier/popify#readme"
+}

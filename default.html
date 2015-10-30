@@ -76,13 +76,13 @@
 
             <div class="jumbotron">      
               <p>
-                <ui-select multiple ng-model="selectedArtists" theme="bootstrap" ng-disabled="disabled" close-on-select="false" style="width: 300px;" title="Choose a color">
+                <ui-select multiple ng-model="selectedArtists" theme="bootstrap" ng-disabled="disabled" close-on-select="false" style="width: 100%;height:100%" title="Choose a color">
                     <ui-select-match placeholder="Select colors...">{{$item.name}}</ui-select-match>
                     <ui-select-choices repeat="color in availableColors | filter:$select.search">
                       {{color}}
                     </ui-select-choices>
                 </ui-select>       
-                <a class="btn btn-primary btn-md" role="button" ng-click="getSuggestions()">Geef suggesties</a>                            
+                <a class="btn btn-primary btn-md" role="button" ng-click="getSuggestions()">Geef mij Suggesties</a>                            
               </p>
               <p>Selected: {{selectedArtists}}</p>
             </div>
